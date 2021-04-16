@@ -4,42 +4,228 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
-
-    <!-- Don't forget to delete this style tag. -->
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .intro {
-        text-align: center;
-      }
-
-      .intro h1 {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 40px;
-      }
-
-      .intro img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
+    <title>UI</title>
   </head>
 
   <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
+    <header class="">
+      <div class="container flex-header">
+        <div class="header-burger">
+          <a href="./index.html" class="logo">Clearcat</a>
+        </div>
+        <div class="menu-container" id="menu-container" data-menu>
+          <nav>
+            <ul class="site-nav list flex-nav">
+              <li class="item">
+                <a href="./index.html" class="link current">HOME</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">STYLE DEMO</a>
+              </li>
+              <li class="item"><a href="" class="link">FULL WIDTH</a></li>
+              <li class="item"><a href="" class="link">DROPDOWN</a></li>
+              <li class="item"><a href="" class="link">PORTFOLIO</a></li>
+              <li class="item"><a href="" class="link">GALLERY</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Герой -->
+      <section class="hero overlay">
+        <p class="shout">
+          “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+          diam erat. In fringilla massa ut nisi ullamcorper pellentesque „
+        </p>
+        <!-- Slider -->
+      </section>
 
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
+      <!-- About us -->
+      <section class="section">
+        <div class="container">
+          <div>
+            <h2>A Little About Us</h2>
+            <!-- <img src='' alt='' width="270" height="140"> -->
+            <p>
+              Justoid nonummy laoreet phasellent penatoque in antesque pellus
+              elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet
+              tincidunt ut vel velit nonummy laoreet phasellent penatoque in
+              antesque pellus elis eget tincidunt.
+            </p>
+            <p>
+              Idenim semper pellente velis felit ac. Justoid nonummy laoreet
+              phasellent penatoque in antesque pellus elis eget tincidunt.
+            </p>
+            <a href="">Read More About Us »</a>
+          </div>
+
+          <div>
+            <h2>Some of Our Services</h2>
+            <ul>
+              <li>
+                <!-- <img src='' alt='' width="64" height="64"> -->
+                <h3>Service Title</h3>
+                <p>
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet
+                  aenean.
+                </p>
+              </li>
+              <li>
+                <!-- <img src='' alt='' width="64" height="64"> -->
+                <h3>Service Title</h3>
+                <p>
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet
+                  aenean.
+                </p>
+              </li>
+              <li>
+                <!-- <img src='' alt='' width="64" height="64"> -->
+                <h3>Service Title</h3>
+                <p>
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet
+                  aenean.
+                </p>
+              </li>
+              <li>
+                <!-- <img src='' alt='' width="64" height="64"> -->
+                <h3>Service Title</h3>
+                <p>
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet
+                  aenean.
+                </p>
+              </li>
+            </ul>
+            <a href="">View All Of Our Services »</a>
+          </div>
+
+          <div>
+            <h2>What Our Clients Say</h2>
+            <ul>
+              <li>
+                <h3>Tommy Tanker - CEO</h3>
+                <p>
+                  Justoid nonummy laoreet phasellent penatoque in antesque
+                  pellus elis eget tincidunt. Nequatdui laorem justo a non
+                  tellus laoreet tincidunt ut vel velit. Idenim semper pellente
+                  velis felit ac nullam pretium morbi lacus.
+                </p>
+                <a href="">View This Project »</a>
+              </li>
+              <li>
+                <h3>Tommy Tanker - CEO</h3>
+                <p>
+                  Justoid nonummy laoreet phasellent penatoque in antesque
+                  pellus elis eget tincidunt. Nequatdui laorem justo a non
+                  tellus laoreet tincidunt ut vel velit. Idenim semper pellente
+                  velis felit ac nullam pretium morbi lacus.
+                </p>
+                <a href="">View This Project »</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Company details -->
+      <section class="section details">
+        <div class="container">
+          <div>
+            <h3>Company Details</h3>
+            <a href="./index.html"> Company Name </a>
+            <address class="address-nav">
+              <a href="#" class="link item">Street Name & Number </a>
+              <a href="#" class="link item">Town </a>
+              <a href="#" class="link item">Postcode/Zip </a>
+              <a href="tel:+xxxxx xxxxxxxxxx" class="item"
+                >Tel: xxxxx xxxxxxxxxx</a
+              >
+              <a href="mailto:xxxxx xxxxxxxxxx" class="transparent item"
+                >Fax: xxxxx xxxxxxxxxx
+              </a>
+              <a href="mailto:xxxxx xxxxxxxxxx" class="transparent item"
+                >Email: contact@mydomain.com
+              </a>
+            </address>
+            <p>Office Hours</p>
+            <p>Monday - Friday: 08:00 - 17:30</p>
+            <p>Saturday: 08:00 - 13:00</p>
+          </div>
+
+          <div>
+            <h3>Stay Social</h3>
+            <ul>
+              <li>
+                <a class="icon-social" href=""
+                  ><svg width="20" height="20">
+                    <!-- <use href=""></use> --></svg
+                  >Get linked up in LinkedIn</a
+                >
+              </li>
+              <li>
+                <a class="icon-social" href=""
+                  ><svg width="20" height="20">
+                    <!-- <use href=""></use> --></svg
+                  >Keep up with our Tweets</a
+                >
+              </li>
+              <li>
+                <a class="icon-social" href=""
+                  ><svg width="20" height="20">
+                    <!-- <use href=""></use> --></svg
+                  >Keep up with our Tweets</a
+                >
+              </li>
+              <li>
+                <a class="icon-social" href=""
+                  ><svg width="20" height="20">
+                    <!-- <use href=""></use> --></svg
+                  >RSS Feed</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>From The Blog</h3>
+            <ul>
+              <li>
+                <h4>Blog Post Title</h4>
+                <p>Posted by Admin on 00.00.0000</p>
+                <p>
+                  Vestibulumaccumsan egestibulum eu justo convallis augue estas
+                  aenean elit intesque sed facilispede estibulum.
+                </p>
+                <a href="">Read More »</a>
+              </li>
+              <li>
+                <h4>Blog Post Title</h4>
+                <p>Posted by Admin on 00.00.0000</p>
+                <p>
+                  Vestibulumaccumsan egestibulum eu justo convallis augue estas
+                  aenean elit intesque sed facilispede estibulum.
+                </p>
+                <a href="">Read More »</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact Us</h3>
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="email" name="mail" id="mail" placeholder="Email" />
+            <textarea name="message" rows="10" cols="50">Message</textarea>
+            <button type="submit" class="button">SUBMIT</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container footer">
+        <p>Copyright © 2013 Domain Name - All Rights Reserved</p>
+        <p>Template by OS Templates</p>
+      </div>
+    </footer>
   </body>
 </html>
